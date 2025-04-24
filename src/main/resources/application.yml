@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: readS7
+
+plcs7:
+  host: 127.0.0.1
+  port: 102
+  slot: 1
+  rack: 0

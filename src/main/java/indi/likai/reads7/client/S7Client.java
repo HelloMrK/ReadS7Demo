@@ -54,6 +54,7 @@ public class S7Client {
                 plcConfig.getRack(),
                 plcConfig.getSlot());
         //TODO上线 将状态更新至redis
+//        System.out.println("开始连接plc");
         //持续开始心跳检测
         new Thread(()->{
             try{

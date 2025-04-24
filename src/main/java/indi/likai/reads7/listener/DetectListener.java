@@ -1,9 +1,11 @@
 package indi.likai.reads7.listener;
 
+import org.springframework.stereotype.Component;
+
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
-
+@Component
 // 监听器
 public class DetectListener implements PropertyChangeListener {
     @Override
